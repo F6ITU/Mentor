@@ -1,4 +1,4 @@
-update=24/05/2017 09:07:13
+update=24/05/2017 13:22:59
 version=1
 last_client=kicad
 [pcbnew]
@@ -39,3 +39,13 @@ LibName7=Library/Arduino_nano/arduino_nano
 LibName8=Library/Kemet_Relay/ee2-5nu
 LibName9=Library/inductance/l_cap
 LibName10=Library/Regulateurs/7805d-pack
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
