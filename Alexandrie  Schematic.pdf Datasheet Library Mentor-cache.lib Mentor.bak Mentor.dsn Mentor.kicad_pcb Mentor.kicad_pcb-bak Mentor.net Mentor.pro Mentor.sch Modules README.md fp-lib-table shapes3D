@@ -1,0 +1,59 @@
+[33mcommit 1c39b9310cea8dd7328b2ba63c7b4c356f8cdfa6[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: f6itu <marc.olanie@decision.fr>
+Date:   Sat Jul 29 10:28:21 2017 +0200
+
+    add a THT relay, cleaning silk, shielding mask zone added
+
+[33mcommit 9c670ef83f667699c5e475a3435e35fdca16e258[m
+Author: f6itu <marc.olanie@decision.fr>
+Date:   Mon Jun 12 16:29:55 2017 +0200
+
+    carte de control V1.0
+
+[33mcommit da11100eb7e50fb067e43c5625f86ee02cebb108[m
+Author: marc olanie <marc olanie>
+Date:   Mon May 29 10:41:31 2017 +0200
+
+    RTM, silmask to do
+
+[33mcommit b4efc4248a6810c935748a8ed165f5feae8d2dc3[m
+Author: marc olanie <marc olanie>
+Date:   Sat May 27 18:29:54 2017 +0200
+
+    Mentor pcb routed, minor errors fixed
+
+[33mcommit b3585ed2c2e2e707196a22de2919cd34f063d8ae[m
+Author: marc olanie <marc olanie>
+Date:   Thu May 25 11:07:09 2017 +0200
+
+    final schematic drawing
+
+[33mcommit 220601d68340125bb1650ee5ecb66782e72f1cd9[m
+Author: marc olanie <marc olanie>
+Date:   Wed May 24 16:51:41 2017 +0200
+
+    New schematic pdf file
+
+[33mcommit 274be55789f0ea5750917180b62ff7cf7b97628f[m
+Author: marc olanie <marc olanie>
+Date:   Wed May 24 16:49:02 2017 +0200
+
+    Mentor Schematic, V1.0
+
+[33mcommit 548718edf5defa3fd8703865589275d795906554[m
+Author: marc olanie <marc olanie>
+Date:   Wed May 24 13:25:47 2017 +0200
+
+    pdf view of Mentor's schematic
+
+[33mcommit b49ab3a0d2fa92de5a2aa11b9ae37e80de994576[m
+Author: marc olanie <marc olanie>
+Date:   Wed May 24 11:42:05 2017 +0200
+
+    Mentor display board for HPSDR first commit
+
+[33mcommit a2deddbb24474ac1e20adec26093d5f420ba4119[m
+Author: F6ITU <marc.olanie@decision.fr>
+Date:   Wed May 24 11:08:37 2017 +0200
+
+    Initial commit
