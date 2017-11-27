@@ -1,5 +1,7 @@
 # Mentor
 
+Kicad files
+
 An Arduino base display controler for HPSDR/Hermes familly
 
 This board and the associated firmware have been developped by ON7EQ. 
