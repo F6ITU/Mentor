@@ -2,7 +2,15 @@
 
 Kicad files
 
-An Arduino base display controler for HPSDR/Hermes familly
+An Arduino based SSPA display controler for HPSDR/Hermes familly
+This module controls 
+- voltage
+- current
+- temperature
+- VSWR/PWR
+- cooling fan
+- 4x40 lcd display
+and shuts down the Bias current while beeping in case of dificulties
 
 This board and the associated firmware have been developped by ON7EQ. 
 
