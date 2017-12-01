@@ -5,7 +5,7 @@
     (no_connects 0)
     (area 148.5808 34.525 219.0716 135.575)
     (thickness 1.6)
-    (drawings 12)
+    (drawings 13)
     (tracks 430)
     (zones 0)
     (modules 41)
@@ -1833,6 +1833,9 @@
     )
   )
 
+  (gr_text "ON7EQ SSPA control board\nrouting by f6itu" (at 167 47) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)) (justify left))
+  )
   (gr_line (start 160 135) (end 160 35) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 210 35) (end 210 135) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 160 35) (end 210 35) (angle 90) (layer Edge.Cuts) (width 0.15))
