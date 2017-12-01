@@ -299,7 +299,7 @@ U 1 1 592544B9
 P 7200 4400
 F 0 "BZ1" V 7450 4400 50  0000 L CNN
 F 1 "Buzzer" V 7350 4300 50  0000 L CNN
-F 2 "Buzzers_Beepers:MagneticBuzzer_Kingstate_KCG0601" V 7175 4500 50  0001 C CNN
+F 2 "Buzzers_Beepers:Buzzer_12x9.5RM7.6" V 7175 4500 50  0001 C CNN
 F 3 "" V 7175 4500 50  0001 C CNN
 	1    7200 4400
 	0    1    1    0   
