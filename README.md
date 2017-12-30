@@ -35,6 +35,8 @@ Mentor up.jpg
 
 Mentor dwn
 
+true picture of the first prototype 
+
 
 Board's dimensions are oversized to fit the 5x10 and 10x10cm 
 size of all board of the Hermes project under Kicad: 
