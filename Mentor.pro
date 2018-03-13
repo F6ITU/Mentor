@@ -1,4 +1,4 @@
-update=22/11/2017 12:14:13
+update=10/03/2018 11:11:23
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,20 +25,6 @@ version=1
 NetIExt=net
 [general]
 version=1
-[eeschema]
-version=1
-LibDir=
-[eeschema/libraries]
-LibName1=power
-LibName2=device
-LibName3=transistors
-LibName4=conn
-LibName5=regul
-LibName6=display
-LibName7=Library/Arduino_nano/arduino_nano
-LibName8=Library/Kemet_Relay/ee2-5nu
-LibName9=Library/inductance/l_cap
-LibName10=Library/Regulateurs/7805d-pack
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
@@ -49,3 +35,17 @@ NetFmtName=
 SpiceForceRefPrefix=0
 SpiceUseNetNumbers=0
 LabSize=59
+[eeschema]
+version=1
+LibDir=
+[eeschema/libraries]
+LibName1=Library/Arduino_nano/arduino_nano
+LibName2=Library/Kemet_Relay/ee2-5nu
+LibName3=Library/inductance/l_cap
+LibName4=C:/Users/Marco/Documents/Kicad/Kicad/kicad-symbols-master/Connector_Generic
+LibName5=C:/Users/Marco/Documents/Kicad/Kicad/kicad-symbols-master/Diode
+LibName6=C:/Users/Marco/Documents/Kicad/Kicad/kicad-symbols-master/Display_Character
+LibName7=C:/Users/Marco/Documents/Kicad/Kicad/kicad-symbols-master/LED
+LibName8=C:/Users/Marco/Documents/Kicad/Kicad/kicad-symbols-master/power
+LibName9=C:/Users/Marco/Documents/Kicad/Kicad/kicad-symbols-master/Regulator_Linear
+LibName10=C:/Users/Marco/Documents/Kicad/Kicad/kicad-symbols-master/Relay
