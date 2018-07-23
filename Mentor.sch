@@ -1,14 +1,14 @@
 EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:regul
-LIBS:display
 LIBS:arduino_nano
 LIBS:ee2-5nu
 LIBS:l_cap
-LIBS:7805d-pack
+LIBS:Connector_Generic
+LIBS:Diode
+LIBS:Display_Character
+LIBS:LED
+LIBS:power
+LIBS:Regulator_Linear
+LIBS:Relay
 LIBS:Mentor-cache
 EELAYER 25 0
 EELAYER END
@@ -727,7 +727,7 @@ Text GLabel 6300 4150 2    39   Input ~ 0
 LCD01
 Text GLabel 6300 4050 2    39   Input ~ 0
 LCD02
-Text GLabel 6300 3950 2    39   Input ~ 0
+Text GLabel 6300 3850 2    39   Input ~ 0
 LCD04
 Text GLabel 6300 3550 2    39   Input ~ 0
 LCDRS
@@ -735,7 +735,7 @@ Text GLabel 6300 3650 2    39   Input ~ 0
 LCDE1
 Text GLabel 6300 3750 2    39   Input ~ 0
 LCDE2
-Text GLabel 6300 3850 2    39   Input ~ 0
+Text GLabel 6300 3950 2    39   Input ~ 0
 LCD03
 Text GLabel 8900 3650 0    39   Input ~ 0
 LCD01
@@ -1051,7 +1051,7 @@ Text Notes 7500 7250 0    60   ~ 0
 1/1
 Text Notes 8100 7650 0    60   ~ 0
 May24th 2017
-Text Notes 9500 3250 1    60   ~ 0
+Text Notes 9600 3500 1    60   ~ 0
 4x40 Display 
 $Comp
 L GND #PWR041
@@ -1292,8 +1292,8 @@ $Comp
 L CONN_01X09 J7
 U 1 1 59283D43
 P 9150 3250
-F 0 "J7" H 9500 3100 50  0000 C CNN
-F 1 "CONN_01X09" V 9250 3250 50  0000 C CNN
+F 0 "J7" V 9350 3600 50  0000 C CNN
+F 1 "CONN_01X09" V 9350 3300 50  0000 C CNN
 F 2 "conn_kk100:kk100_22-23-2091" H 9150 3250 50  0001 C CNN
 F 3 "" H 9150 3250 50  0001 C CNN
 	1    9150 3250
