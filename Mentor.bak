@@ -1463,6 +1463,4 @@ $EndComp
 Wire Wire Line
 	1100 1400 1950 1400
 Connection ~ 1150 1400
-Text Notes 6200 1100 0    100  ~ 20
-ajouter diode de protection
 $EndSCHEMATC

@@ -1,4 +1,4 @@
-update=10/03/2018 11:11:23
+update=27/09/2018 10:23:37
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,16 +25,6 @@ version=1
 NetIExt=net
 [general]
 version=1
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=59
 [eeschema]
 version=1
 LibDir=
@@ -49,3 +39,13 @@ LibName7=C:/Users/Marco/Documents/Kicad/Kicad/kicad-symbols-master/LED
 LibName8=C:/Users/Marco/Documents/Kicad/Kicad/kicad-symbols-master/power
 LibName9=C:/Users/Marco/Documents/Kicad/Kicad/kicad-symbols-master/Regulator_Linear
 LibName10=C:/Users/Marco/Documents/Kicad/Kicad/kicad-symbols-master/Relay
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=59
