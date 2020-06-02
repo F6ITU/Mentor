@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:Mentor-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -14,17 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L arduino_nano:Arduino_Nano U2
-U 1 1 5924667F
-P 5550 4100
-F 0 "U2" H 5550 4050 70  0000 C CNN
-F 1 "Arduino_Nano" H 5550 3100 70  0000 C CNN
-F 2 "arduino_nano:arduino_nano" H 5550 4050 60  0001 C CNN
-F 3 "" H 5550 4100 60  0000 C CNN
-	1    5550 4100
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2250 3400 3600 3400
 Text Notes 2250 3400 0    39   ~ 0
@@ -48,43 +36,41 @@ TX/RX status
 $Comp
 L Mentor-rescue:R R2
 U 1 1 592521F1
-P 4650 4400
-F 0 "R2" V 4550 4400 50  0000 C CNN
-F 1 "0R" V 4650 4400 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 4580 4400 50  0001 C CNN
-F 3 "" H 4650 4400 50  0001 C CNN
-	1    4650 4400
+P 4250 4400
+F 0 "R2" V 4150 4400 50  0000 C CNN
+F 1 "0R" V 4250 4400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4180 4400 50  0001 C CNN
+F 3 "" H 4250 4400 50  0001 C CNN
+	1    4250 4400
 	0    1    1    0   
 $EndComp
 $Comp
 L Mentor-rescue:R R3
 U 1 1 5925221E
-P 4650 4500
-F 0 "R3" V 4730 4500 50  0000 C CNN
-F 1 "0R" V 4650 4500 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 4580 4500 50  0001 C CNN
-F 3 "" H 4650 4500 50  0001 C CNN
-	1    4650 4500
+P 4250 4500
+F 0 "R3" V 4330 4500 50  0000 C CNN
+F 1 "0R" V 4250 4500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4180 4500 50  0001 C CNN
+F 3 "" H 4250 4500 50  0001 C CNN
+	1    4250 4500
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	4800 4400 4850 4400
-Wire Wire Line
 	4800 4500 4850 4500
 Wire Wire Line
-	4500 4400 4500 4450
+	4100 4400 4100 4450
 Wire Wire Line
-	4500 4450 4450 4450
-Connection ~ 4500 4450
+	4100 4450 4050 4450
+Connection ~ 4100 4450
 $Comp
 L Mentor-rescue:GND #PWR01
 U 1 1 592522A5
-P 4450 4450
-F 0 "#PWR01" H 4450 4200 50  0001 C CNN
-F 1 "GND" H 4450 4300 50  0000 C CNN
-F 2 "" H 4450 4450 50  0001 C CNN
-F 3 "" H 4450 4450 50  0001 C CNN
-	1    4450 4450
+P 4050 4450
+F 0 "#PWR01" H 4050 4200 50  0001 C CNN
+F 1 "GND" H 4050 4300 50  0000 C CNN
+F 2 "" H 4050 4450 50  0001 C CNN
+F 3 "" H 4050 4450 50  0001 C CNN
+	1    4050 4450
 	0    1    1    0   
 $EndComp
 $Comp
@@ -93,7 +79,7 @@ U 1 1 59252361
 P 6300 2950
 F 0 "R4" V 6380 2950 50  0000 C CNN
 F 1 "330" V 6300 2950 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 6230 2950 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6230 2950 50  0001 C CNN
 F 3 "" H 6300 2950 50  0001 C CNN
 	1    6300 2950
 	-1   0    0    -1  
@@ -104,7 +90,7 @@ U 1 1 59252374
 P 6300 3300
 F 0 "D1" H 6300 3400 50  0000 C CNN
 F 1 "LED" H 6300 3200 50  0000 C CNN
-F 2 "Diodes_SMD:D_0805" H 6300 3300 50  0001 C CNN
+F 2 "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6300 3300 50  0001 C CNN
 F 3 "" H 6300 3300 50  0001 C CNN
 	1    6300 3300
 	0    1    1    0   
@@ -171,7 +157,7 @@ U 1 1 59253593
 P 6950 3450
 F 0 "Q2" H 7150 3525 50  0000 L CNN
 F 1 "PZT2222A" H 7150 3450 50  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:SOT-223" H 7150 3375 50  0001 L CIN
+F 2 "Package_TO_SOT_SMD:SOT-223" H 7150 3375 50  0001 L CIN
 F 3 "" H 6950 3450 50  0001 L CNN
 	1    6950 3450
 	1    0    0    -1  
@@ -182,7 +168,7 @@ U 1 1 592536B4
 P 6500 3450
 F 0 "R5" V 6580 3450 50  0000 C CNN
 F 1 "1k" V 6500 3450 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 6430 3450 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6430 3450 50  0001 C CNN
 F 3 "" H 6500 3450 50  0001 C CNN
 	1    6500 3450
 	0    1    -1   0   
@@ -193,7 +179,7 @@ U 1 1 592536D9
 P 6700 3600
 F 0 "R8" V 6780 3600 50  0000 C CNN
 F 1 "10k" V 6700 3600 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 6630 3600 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6630 3600 50  0001 C CNN
 F 3 "" H 6700 3600 50  0001 C CNN
 	1    6700 3600
 	-1   0    0    -1  
@@ -226,7 +212,7 @@ U 1 1 59253CDA
 P 7600 3750
 F 0 "C6" H 7625 3850 50  0000 L CNN
 F 1 "100n" H 7625 3650 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 7638 3600 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7638 3600 50  0001 C CNN
 F 3 "" H 7600 3750 50  0001 C CNN
 	1    7600 3750
 	0    1    1    0   
@@ -263,7 +249,7 @@ U 1 1 592541E5
 P 6500 4500
 F 0 "R7" V 6700 4500 50  0000 C CNN
 F 1 "2k2" V 6500 4500 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 6430 4500 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6430 4500 50  0001 C CNN
 F 3 "" H 6500 4500 50  0001 C CNN
 	1    6500 4500
 	0    1    -1   0   
@@ -289,7 +275,7 @@ U 1 1 592544B9
 P 7200 4400
 F 0 "BZ1" V 7450 4400 50  0000 L CNN
 F 1 "Buzzer" V 7350 4300 50  0000 L CNN
-F 2 "Buzzers_Beepers:Buzzer_12x9.5RM7.6" V 7175 4500 50  0001 C CNN
+F 2 "Buzzer_Beeper:Buzzer_12x9.5RM7.6" V 7175 4500 50  0001 C CNN
 F 3 "" V 7175 4500 50  0001 C CNN
 	1    7200 4400
 	0    1    1    0   
@@ -325,7 +311,7 @@ U 1 1 5925584D
 P 6500 4400
 F 0 "R6" V 6750 4400 50  0000 C CNN
 F 1 "1k" V 6500 4400 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 6430 4400 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6430 4400 50  0001 C CNN
 F 3 "" H 6500 4400 50  0001 C CNN
 	1    6500 4400
 	0    -1   1    0   
@@ -565,7 +551,7 @@ U 1 1 592594C1
 P 3950 3050
 F 0 "R1" V 4030 3050 50  0000 C CNN
 F 1 "10k" V 3950 3050 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 3880 3050 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3880 3050 50  0001 C CNN
 F 3 "" H 3950 3050 50  0001 C CNN
 	1    3950 3050
 	-1   0    0    -1  
@@ -781,16 +767,14 @@ Wire Wire Line
 $Comp
 L Mentor-rescue:+5V #PWR029
 U 1 1 59262330
-P 5400 2900
-F 0 "#PWR029" H 5400 2750 50  0001 C CNN
-F 1 "+5V" H 5400 3040 50  0000 C CNN
-F 2 "" H 5400 2900 50  0001 C CNN
-F 3 "" H 5400 2900 50  0001 C CNN
-	1    5400 2900
+P 5550 2900
+F 0 "#PWR029" H 5550 2750 50  0001 C CNN
+F 1 "+5V" H 5550 3040 50  0000 C CNN
+F 2 "" H 5550 2900 50  0001 C CNN
+F 3 "" H 5550 2900 50  0001 C CNN
+	1    5550 2900
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5400 2900 5400 2950
 NoConn ~ 5700 2950
 $Comp
 L Mentor-rescue:PWR_FLAG #FLG030
@@ -811,7 +795,7 @@ U 1 1 59265C31
 P 1550 1500
 F 0 "C1" H 1560 1570 50  0000 L CNN
 F 1 "100n" H 1560 1420 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 1550 1500 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1550 1500 50  0001 C CNN
 F 3 "" H 1550 1500 50  0001 C CNN
 	1    1550 1500
 	1    0    0    -1  
@@ -822,7 +806,7 @@ U 1 1 59265C86
 P 1700 1500
 F 0 "C2" H 1710 1570 50  0000 L CNN
 F 1 "10u" H 1710 1420 50  0000 L CNN
-F 2 "Capacitors_Tantalum_SMD:CP_Tantalum_Case-C_EIA-6032-28_Hand" H 1700 1500 50  0001 C CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-6032-28_Kemet-C_Pad2.25x2.35mm_HandSolder" H 1700 1500 50  0001 C CNN
 F 3 "" H 1700 1500 50  0001 C CNN
 	1    1700 1500
 	1    0    0    -1  
@@ -833,7 +817,7 @@ U 1 1 59265D9B
 P 2600 1500
 F 0 "C4" H 2610 1570 50  0000 L CNN
 F 1 "100n" H 2610 1420 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 2600 1500 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2600 1500 50  0001 C CNN
 F 3 "" H 2600 1500 50  0001 C CNN
 	1    2600 1500
 	1    0    0    -1  
@@ -844,7 +828,7 @@ U 1 1 59265DD0
 P 1850 1500
 F 0 "C3" H 1860 1570 50  0000 L CNN
 F 1 "100n" H 1860 1420 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 1850 1500 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1850 1500 50  0001 C CNN
 F 3 "" H 1850 1500 50  0001 C CNN
 	1    1850 1500
 	1    0    0    -1  
@@ -855,7 +839,7 @@ U 1 1 59265E89
 P 2750 1500
 F 0 "C5" H 2760 1570 50  0000 L CNN
 F 1 "100n" H 2760 1420 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 2750 1500 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2750 1500 50  0001 C CNN
 F 3 "" H 2750 1500 50  0001 C CNN
 	1    2750 1500
 	1    0    0    -1  
@@ -1031,13 +1015,13 @@ Wire Wire Line
 Wire Wire Line
 	3900 4300 4850 4300
 Text Notes 7100 7050 0    60   ~ 0
-Mentor\nA power/U/I/VSWR/Temp. indicator\nand security system\nBy ON7EQ\nfor the Hermes SDR familly
+Mentor\nA power/U/I/VSWR/Temp. indicator\nand security system\nBy ON7EQ\nfor the Hermes SDR familly and W6PQL control board
 Text Notes 7450 7500 0    60   ~ 0
 Mentor
 Text Notes 7500 7250 0    60   ~ 0
 1/1
 Text Notes 8100 7650 0    60   ~ 0
-May24th 2017
+May24th 2017 updated 29/04/2020\n
 Text Notes 9600 3500 1    60   ~ 0
 4x40 Display 
 $Comp
@@ -1170,7 +1154,7 @@ U 1 1 5925F12A
 P 8750 2050
 F 0 "R9" V 8650 2050 50  0000 C CNN
 F 1 "100R" V 8750 2050 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 8680 2050 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8680 2050 50  0001 C CNN
 F 3 "" H 8750 2050 50  0001 C CNN
 	1    8750 2050
 	0    1    -1   0   
@@ -1269,12 +1253,9 @@ Wire Wire Line
 NoConn ~ 7900 2350
 NoConn ~ 7900 2750
 NoConn ~ 4850 3700
-NoConn ~ 5550 2950
 NoConn ~ 4850 5300
 NoConn ~ 4850 5400
 NoConn ~ 6250 4900
-NoConn ~ 6250 4800
-NoConn ~ 6250 4700
 $Comp
 L Mentor-rescue:CONN_01X09 J7
 U 1 1 59283D43
@@ -1307,7 +1288,7 @@ U 1 1 5929D8C9
 P 6900 4500
 F 0 "Q1" H 7100 4575 50  0000 L CNN
 F 1 "PZT2222A" H 7100 4500 50  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:SOT-223" H 7100 4425 50  0001 L CIN
+F 2 "Package_TO_SOT_SMD:SOT-223" H 7100 4425 50  0001 L CIN
 F 3 "" H 6900 4500 50  0001 L CNN
 	1    6900 4500
 	1    0    0    -1  
@@ -1431,7 +1412,7 @@ U 1 1 5A158332
 P 2250 1400
 F 0 "U1" H 2100 1525 50  0000 C CNN
 F 1 "KA78M05_TO252" H 2250 1525 50  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:TO-252-3_TabPin2" H 2250 1625 50  0001 C CIN
+F 2 "Package_TO_SOT_SMD:TO-252-3_TabPin2" H 2250 1625 50  0001 C CIN
 F 3 "" H 2250 1350 50  0001 C CNN
 	1    2250 1400
 	1    0    0    -1  
@@ -1442,7 +1423,7 @@ U 1 1 5A15886C
 P 7900 4400
 F 0 "Q3" H 8150 4475 50  0000 L CNN
 F 1 "IRFR3303" H 8150 4400 50  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:TO-252-3_TabPin2" H 8150 4325 50  0001 L CIN
+F 2 "Package_TO_SOT_SMD:TO-252-3_TabPin2" H 8150 4325 50  0001 L CIN
 F 3 "" H 7900 4400 50  0001 L CNN
 	1    7900 4400
 	1    0    0    -1  
@@ -1451,7 +1432,7 @@ Wire Wire Line
 	1100 1400 1150 1400
 Connection ~ 1150 1400
 Wire Wire Line
-	4500 4450 4500 4500
+	4100 4450 4100 4500
 Wire Wire Line
 	6700 3450 6750 3450
 Wire Wire Line
@@ -1480,4 +1461,282 @@ Wire Wire Line
 	1150 1400 1550 1400
 Wire Wire Line
 	8000 4200 8150 4200
+Wire Wire Line
+	5550 2900 5550 2950
+NoConn ~ 5400 2950
+$Comp
+L Device:R R10
+U 1 1 5EA08F4D
+P 2400 5600
+F 0 "R10" V 2193 5600 50  0000 C CNN
+F 1 "5k" V 2284 5600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2330 5600 50  0001 C CNN
+F 3 "~" H 2400 5600 50  0001 C CNN
+	1    2400 5600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R13
+U 1 1 5EA0AF95
+P 2750 5600
+F 0 "R13" V 2543 5600 50  0000 C CNN
+F 1 "2k" V 2634 5600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2680 5600 50  0001 C CNN
+F 3 "~" H 2750 5600 50  0001 C CNN
+	1    2750 5600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R16
+U 1 1 5EA11A16
+P 3100 5600
+F 0 "R16" V 2893 5600 50  0000 C CNN
+F 1 "500R" V 2984 5600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3030 5600 50  0001 C CNN
+F 3 "~" H 3100 5600 50  0001 C CNN
+	1    3100 5600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_POT RV2
+U 1 1 5EA1FDAB
+P 3450 5600
+F 0 "RV2" V 3243 5600 50  0000 C CNN
+F 1 "2k" V 3334 5600 50  0000 C CNN
+F 2 "Trimmer_3314G1_Handsoldering:Trimmer_3314G1_Handsoldering" H 3450 5600 50  0001 C CNN
+F 3 "~" H 3450 5600 50  0001 C CNN
+	1    3450 5600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2550 5600 2600 5600
+Wire Wire Line
+	2900 5600 2950 5600
+Wire Wire Line
+	3250 5600 3300 5600
+Wire Wire Line
+	3600 5600 3650 5600
+Wire Wire Line
+	3450 5750 3300 5750
+Wire Wire Line
+	3300 5750 3300 5600
+Connection ~ 3300 5600
+$Comp
+L Mentor-rescue:GND #PWR0101
+U 1 1 5EA607CC
+P 3650 5600
+F 0 "#PWR0101" H 3650 5350 50  0001 C CNN
+F 1 "GND" V 3650 5472 50  0000 R CNN
+F 2 "" H 3650 5600 50  0001 C CNN
+F 3 "" H 3650 5600 50  0001 C CNN
+	1    3650 5600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R11
+U 1 1 5EA6BD7D
+P 2400 6050
+F 0 "R11" V 2193 6050 50  0000 C CNN
+F 1 "1k5" V 2284 6050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2330 6050 50  0001 C CNN
+F 3 "~" H 2400 6050 50  0001 C CNN
+	1    2400 6050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R14
+U 1 1 5EA6BD87
+P 2750 6050
+F 0 "R14" V 2543 6050 50  0000 C CNN
+F 1 "1k5" V 2634 6050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2680 6050 50  0001 C CNN
+F 3 "~" H 2750 6050 50  0001 C CNN
+	1    2750 6050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R17
+U 1 1 5EA6BD91
+P 3100 6050
+F 0 "R17" V 2893 6050 50  0000 C CNN
+F 1 "500R" V 2984 6050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3030 6050 50  0001 C CNN
+F 3 "~" H 3100 6050 50  0001 C CNN
+	1    3100 6050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_POT RV3
+U 1 1 5EA6BD9B
+P 3450 6050
+F 0 "RV3" V 3243 6050 50  0000 C CNN
+F 1 "2k" V 3334 6050 50  0000 C CNN
+F 2 "Trimmer_3314G1_Handsoldering:Trimmer_3314G1_Handsoldering" H 3450 6050 50  0001 C CNN
+F 3 "~" H 3450 6050 50  0001 C CNN
+	1    3450 6050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2550 6050 2600 6050
+Wire Wire Line
+	2900 6050 2950 6050
+Wire Wire Line
+	3250 6050 3300 6050
+Wire Wire Line
+	3600 6050 3650 6050
+Wire Wire Line
+	3450 6200 3300 6200
+Wire Wire Line
+	3300 6200 3300 6050
+Connection ~ 3300 6050
+$Comp
+L Mentor-rescue:GND #PWR0102
+U 1 1 5EA6BDAC
+P 3650 6050
+F 0 "#PWR0102" H 3650 5800 50  0001 C CNN
+F 1 "GND" V 3650 5922 50  0000 R CNN
+F 2 "" H 3650 6050 50  0001 C CNN
+F 3 "" H 3650 6050 50  0001 C CNN
+	1    3650 6050
+	0    -1   -1   0   
+$EndComp
+Text Notes 1100 6150 0    59   ~ 0
+13.8V sense
+Text Notes 1100 6000 0    59   ~ 0
+24V Sense
+Wire Wire Line
+	2950 5800 2950 6050
+Connection ~ 2950 6050
+$Comp
+L arduino_nano:Arduino_Nano U2
+U 1 1 5924667F
+P 5550 4100
+F 0 "U2" H 5550 4050 70  0000 C CNN
+F 1 "Arduino_Nano" H 5550 3100 70  0000 C CNN
+F 2 "arduino_nano:arduino_nano" H 5550 4050 60  0001 C CNN
+F 3 "" H 5550 4100 60  0000 C CNN
+	1    5550 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 5100 3200 5450
+Wire Wire Line
+	3200 5450 2950 5450
+Wire Wire Line
+	2950 5450 2950 5600
+Connection ~ 2950 5600
+Wire Wire Line
+	4800 4500 4800 5800
+Wire Wire Line
+	4800 5800 2950 5800
+Wire Wire Line
+	3200 5100 4700 5100
+Wire Wire Line
+	4700 5100 4700 4400
+Wire Wire Line
+	4700 4400 4850 4400
+Wire Wire Line
+	4700 4400 4400 4400
+Connection ~ 4700 4400
+Wire Wire Line
+	4800 4500 4400 4500
+Connection ~ 4800 4500
+Text Notes 3350 5300 0    59   ~ 0
+If 12 & 24V Sense is in use, \ndo not install R2 and R3
+Wire Wire Line
+	6250 4800 6300 4800
+Wire Wire Line
+	6300 4800 6300 6300
+Text Notes 1100 6300 0    59   ~ 0
+Reset/Alarm
+$Comp
+L Device:R R12
+U 1 1 5EAD61BC
+P 2400 6600
+F 0 "R12" V 2193 6600 50  0000 C CNN
+F 1 "3k3" V 2284 6600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2330 6600 50  0001 C CNN
+F 3 "~" H 2400 6600 50  0001 C CNN
+	1    2400 6600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R15
+U 1 1 5EAD61C6
+P 2750 6600
+F 0 "R15" V 2543 6600 50  0000 C CNN
+F 1 "1k5" V 2634 6600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2680 6600 50  0001 C CNN
+F 3 "~" H 2750 6600 50  0001 C CNN
+	1    2750 6600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2550 6600 2600 6600
+Wire Wire Line
+	2600 6600 2600 6400
+Wire Wire Line
+	2600 6400 6400 6400
+Wire Wire Line
+	6400 6400 6400 4700
+Wire Wire Line
+	6400 4700 6250 4700
+Connection ~ 2600 6600
+Wire Wire Line
+	2900 6600 2950 6600
+$Comp
+L Mentor-rescue:GND #PWR0103
+U 1 1 5EAF465B
+P 2950 6600
+F 0 "#PWR0103" H 2950 6350 50  0001 C CNN
+F 1 "GND" V 2950 6472 50  0000 R CNN
+F 2 "" H 2950 6600 50  0001 C CNN
+F 3 "" H 2950 6600 50  0001 C CNN
+	1    2950 6600
+	0    -1   -1   0   
+$EndComp
+Text Notes 1100 6450 0    59   ~ 0
+Bypass/Operate\n
+$Comp
+L Mentor-rescue:GND #PWR0104
+U 1 1 5EAFF293
+P 2300 6200
+F 0 "#PWR0104" H 2300 5950 50  0001 C CNN
+F 1 "GND" V 2300 6072 50  0000 R CNN
+F 2 "" H 2300 6200 50  0001 C CNN
+F 3 "" H 2300 6200 50  0001 C CNN
+	1    2300 6200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2250 5600 2050 5600
+Wire Wire Line
+	2050 5600 2050 6000
+Wire Wire Line
+	2250 6050 2050 6050
+Wire Wire Line
+	2050 6050 2050 6100
+Wire Wire Line
+	2050 6200 2300 6200
+Wire Wire Line
+	2050 6300 6300 6300
+Wire Wire Line
+	2250 6600 2050 6600
+Text Notes 1100 7250 0    79   ~ 16
+J8 and associated components \nfor W6PQL board only. \nIt should not be installed/wired\nfor Alex frontend
+$Comp
+L Connector_Generic:Conn_01x05 J8
+U 1 1 5EA1ADF1
+P 1850 6200
+F 0 "J8" H 1768 6617 50  0000 C CNN
+F 1 "Conn_01x05" H 1768 6526 50  0000 C CNN
+F 2 "conn_kk100:kk100_22-23-2051" H 1850 6200 50  0001 C CNN
+F 3 "~" H 1850 6200 50  0001 C CNN
+	1    1850 6200
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 6400 2050 6600
+Text Notes 10600 7650 0    59   ~ 0
+3.0\n
 $EndSCHEMATC

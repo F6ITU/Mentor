@@ -4,4 +4,5 @@
   (lib (name 2_Form_C_Relay)(type KiCad)(uri "$(KIPRJMOD)/Modules/2_Form_C_Relay.pretty")(options "")(descr ""))
   (lib (name Ferrite_LC_NFM41P)(type KiCad)(uri "$(KIPRJMOD)/Modules/Ferrite_LC_NFM41P.pretty")(options "")(descr ""))
   (lib (name Trimmer_3314G1_Handsoldering)(type KiCad)(uri "$(KIPRJMOD)/Modules/Trimmer_3314G1_Handsoldering.pretty")(options "")(descr ""))
+  (lib (name conn_kk100)(type KiCad)(uri C:/Users/Marco/Documents/KiCad/perso/modules/conn_kk100.pretty)(options "")(descr ""))
 )
