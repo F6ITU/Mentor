@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name Mentor-rescue)(type Legacy)(uri ${KIPRJMOD}/Mentor-rescue.lib)(options "")(descr ""))
+  (lib (name arduino_nano)(type Legacy)(uri ${KIPRJMOD}/Library/Arduino_nano/arduino_nano.lib)(options "")(descr ""))
+  (lib (name ee2-5nu)(type Legacy)(uri ${KIPRJMOD}/Library/Kemet_Relay/ee2-5nu.lib)(options "")(descr ""))
+  (lib (name l_cap)(type Legacy)(uri ${KIPRJMOD}/Library/inductance/l_cap.lib)(options "")(descr ""))
+)
